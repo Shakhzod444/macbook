@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+}
+
+body{
+    width: 65%;
+    margin: 30px auto;
+}
+.header_name  h1{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+.header_name{
+    width: 100%;
+    margin: 0 auto;
+}
+.header_name span{
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.header_name  span:nth-child(5){
+    margin-bottom: 60px;
+}
+.Macbook {
+    display: flex;
+    transform: translate(170px, 26px);
+}
+.button {
+    transform: translateY(123px);
+    display: flex;
+    flex-direction: column;
+}
+.bottom_btn{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+.right{
+
+    display: flex;
+    flex-direction: column;
+  
+
+}
+h2 {
+
+    transform: translate(39px,10px);
+    font-size: 46px;
+    font-weight: 900;
+}
+.span{
+    transform: translate(42px,10px);
+    font-size: 28px;
+    font-weight: 800;
+    color: #0080ff;
+    margin-bottom: 0;
+}
+.right .price{
+    transform: translate(42px,150px);
+    font-size: 34px;
+    color: black;
+    font-weight: 800;
+}
+.top_btn{
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.top_btn .color_btn {
+    width: 150px;
+    height: 40px;
+    margin: 6px;
+    cursor: pointer;
+    background: #CFE7FF;
+    border: none;
+    border-radius: 7px;
+    color: #797979;
+    transition: .4s ease;
+}
+.top_btn button:hover{
+    background: #b7dafd;
+}
+
+
+.top_btn button:nth-child(1){
+    color: white;
+    transition: .4s ease;
+    background: #0080ff;
+}
+.top_btn button:nth-child(1):hover{
+    background: #0159b1;
+}
+.bottom_btn button {
+    width: 316px;
+    height: 40px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 7px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background: white;
+    transition: .3s ease;
+}
+.bottom_btn button:hover {
+    background: rgba(136, 197, 255, 0.185);
+   
+}
+.bottom_btn button:focus {
+    border: 3px solid #2DA5C7;
+}
